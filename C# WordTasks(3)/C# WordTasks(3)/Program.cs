@@ -6,29 +6,31 @@ namespace C__WordTasks_3_
     {
         static void Main(string[] args)
         {
-            //1.
-            //string[] ARR = ["1", "7 9 5"]
-            //int[] arr2 = [numbers]
-            //string arr3 = ["the", "fox", "over lazy", "dog"]
+            /*1.
+            string[] ARR = ["1", "7 9 5"]
+            string[] arr2=["Str" "alex","moh"]
+            string[] arr3 = ["the", "fox", "over lazy", "dog"]
+            
+            2.
+            1, 0
 
-            //2.
-            //1, 0
+            */
 
             //3.
-            //string[] favefood = ["apple", "orange", "plum", "melon", "kiwi"]
-            //string favesport = ["football", "hockey", "tennis"]
-            //string favemovie = ["scream", "interstellar", "Godfather", "scarface"]
-            //foreach (string n in array)
-            //            {
-            //                console.WriteLine(n)
-            //}
-            //            for (int i = 0; i < array.length; i++)
-            //            {
-            //                console.Write(array[i]);
-            //            }
+            string[] favefood = ["apple", "orange", "plum", "melon", "kiwi"];
+            string[] favesport = ["football", "hockey", "tennis"];
+            string[] favemovie = ["scream", "interstellar", "Godfather", "scarface"];
+            foreach (string n in favefood)
+            {
+                Console.WriteLine(n);
+            }
+            for (int i = 0; i < favefood.Length; i++)
+            {
+                Console.WriteLine(favefood[i]+ " ");
+            }
 
-
-            Console.Write("Input three numbers separated by comma: ");
+            //4.
+            Console.WriteLine("Input three numbers separated by comma: ");
             string input = Console.ReadLine();
 
             int sum = input.Split(',')
@@ -38,7 +40,7 @@ namespace C__WordTasks_3_
             Console.WriteLine("The sum of three numbers: " + sum);
 
             ///
-            int sum = 0;
+            int sum2 = 0;
 
             Console.WriteLine("The odd numbers are:");
 
@@ -46,15 +48,14 @@ namespace C__WordTasks_3_
             {
                 if (i % 2 != 0)
                 {
-                    Console.Write(i + " ");
-                    sum += i;
+                    Console.Write(i+ " ");
+                    sum2 += i;
                 }
             }
 
-            Console.WriteLine();
-            Console.WriteLine("The Sum of odd Numbers is: " + sum);
+            Console.WriteLine("The Sum of odd Numbers is: " + sum2);
 
-            //6.in 30's
+            //6.
             int rows = 3;
 
             for (int i = 1; i <= rows; i++)
@@ -74,8 +75,8 @@ namespace C__WordTasks_3_
                 Console.WriteLine();
             }
 
-            //7.in 30's
-            int rows = 4;
+            //7.
+            int rows1 = 4;
             int num = 1;
 
             for (int i = 1; i <= rows; i++)

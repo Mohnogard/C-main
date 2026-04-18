@@ -4,12 +4,12 @@ namespace C__WordTasks_5_
 {
     public class MyClass
     {
-        static void Init()
+        public MyClass()
         {
             Console.WriteLine("MyClass class has initialized!");
         }
     }
-
+    
     public class Class2
     {
         public string name = "Scott";
@@ -84,6 +84,9 @@ namespace C__WordTasks_5_
 
         switch (switchcase)
         {
+            case 1:
+                MyClass obj = new MyClass();
+                break;
             case 2:
                 Class2 obj1 = new Class2();
                 obj1.writename("Hello my name is");

@@ -53,7 +53,7 @@
                     break;
 
                 case 2:
-                    int num = -7;
+                    int num = int.Parse(Console.ReadLine());
 
                     if (num > 0)
                         Console.WriteLine("The sign is +");
