@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj": {}
+    "C:\\Users\\DELL\\codes\\Orange\\Backend\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj": {
+    "C:\\Users\\DELL\\codes\\Orange\\Backend\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\codes\\Orange\\Backend\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj",
         "projectName": "Methods & Collections in C#",
-        "projectPath": "C:\\Users\\user\\source\\repos\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\codes\\Orange\\Backend\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\Methods & Collections in C#.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\codes\\Orange\\Backend\\C#\\Methods & Collections in C#\\Methods & Collections in C#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -48,6 +49,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
